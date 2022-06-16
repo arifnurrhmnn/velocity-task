@@ -18,11 +18,20 @@
       display: flex;
       align-items: center;
       gap: 36.6px;
+      @media screen and(max-width: 1300px) {
+        gap: 17px;
+      }
       .menu {
         display: flex;
         flex-wrap: nowrap;
         flex-direction: row;
         gap: 32px;
+        @media screen and(max-width: 1300px) {
+          gap: 15px;
+        }
+        @media screen and(max-width: 768px) {
+          display: none;
+        }
         .item-menu {
           font-size: 12.5px;
           font-weight: 700;
@@ -33,6 +42,9 @@
         }
       }
       .search {
+        @media screen and(max-width: 1150px) {
+          display: none;
+        }
         .search-form {
           position: relative;
           display: flex;
