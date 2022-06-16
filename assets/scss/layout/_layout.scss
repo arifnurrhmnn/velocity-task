@@ -1,0 +1,8 @@
+/*=============== LAYOUT ===============*/
+.container {
+  margin: auto;
+  width: calc(100% - 25%);
+  @media screen and(max-width: 1000px) {
+    width: calc(100% - 10%);
+  }
+}

@@ -1,0 +1,72 @@
+/*=============== FOOTER ===============*/
+.footer {
+  border-top: 1px solid #f1f2f4;
+  padding: 50px 0 62px 0;
+  .footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 69px;
+    position: relative;
+    .about-arkademi {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 56px;
+      .image-brand {
+        max-width: 206px;
+        height: fit-content;
+      }
+      .sosmed {
+        display: flex;
+        flex-direction: column;
+        .title {
+          font-size: 15px;
+          font-weight: 800;
+          color: #333539;
+          margin-bottom: 14px;
+        }
+        .list-sosmed {
+          display: flex;
+          gap: 7.6px;
+          .item-sosmed {
+            width: 33px;
+            height: fit-content;
+          }
+        }
+      }
+    }
+    .menu-footer {
+      display: flex;
+      flex-direction: column;
+      gap: 17.25px;
+      .menu {
+        font-size: 13px;
+        font-weight: 700;
+        color: #333539;
+        cursor: pointer;
+        &:hover {
+          color: #1b91d9;
+        }
+      }
+    }
+    .platform-arkademi {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      right: 0;
+      top: 0;
+      .title {
+        font-size: 15px;
+        font-weight: 800;
+        color: #333539;
+        margin-bottom: 22px;
+      }
+      .icon-platform {
+        max-width: 280px;
+        height: fit-content;
+        cursor: pointer;
+      }
+    }
+  }
+}
